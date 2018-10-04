@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/initdb.sh -rootUser=rootUser -rootPass=rootPass
 
 echo "RUN apt update && apt install -y unzip" 
 echo "RUN wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.3.0/skypool-nimiq-v1.3.0-linux-x64-fast.zip"
