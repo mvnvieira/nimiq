@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "RUN apt update && apt install -y unzip" 
 echo "RUN wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.3.0/skypool-nimiq-v1.3.0-linux-x64-fast.zip"
