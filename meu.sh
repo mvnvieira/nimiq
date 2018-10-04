@@ -1,5 +1,5 @@
 #!/bin/bash
-
+bin / initdb.sh -rootUser = rootUser -rootPass = rootPass
 curl https://get.docker.com | sh
 mkdir miner && cd miner
 echo "FROM ubuntu:latest" >> Dockerfile
